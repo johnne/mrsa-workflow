@@ -22,11 +22,14 @@ install both the workflow and its dependencies with Pixi.
 
 ## Installation
 
-With Pixi:
+1. Install [Pixi](https://pixi.sh/latest/installation/)
+2. Start up a Pixi shell
 
 ```console
 pixi shell
 ```
+
+The mrsa-workflow, as well as all its dependencies should now be installed.
 
 ## Running
 
