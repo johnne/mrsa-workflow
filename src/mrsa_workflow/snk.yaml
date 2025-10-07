@@ -1,0 +1,25 @@
+cli:
+  sample_list:
+    type: path
+    help: "Path to input sample sheet"
+    default: "samples.csv"
+    short: s
+  genome_list:
+    type: path
+    help: "Path to genomes file with fasta and gff3 FTP paths"
+    default: "genomes.csv"
+    short: g
+  genome_id:
+    type: str
+    help: "Genome id to map to"
+    default: "NCTC8325"
+    short: G
+  max_reads:
+    type: int
+    help: "Number of reads to use"
+    default: 25000
+    short: m
+
+resources:
+  - "samples.csv"
+  - "genomes.csv"
